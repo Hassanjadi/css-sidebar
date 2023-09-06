@@ -48,6 +48,33 @@ body.open .overlay {
   top: 20px;
   right: 12px;
   display: flex;
-  algn-items: center;
+  align-items: center;
   gap: 6px;
+}
+
+@media (width >= 500px) {
+  .burger {
+    display: none;
+  }
+}
+
+.burger-avatar {
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+
+body.open .burger-avatar {
+  translate: 40px 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.burger-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("./assets/icon-burger.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
