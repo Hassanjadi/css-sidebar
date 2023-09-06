@@ -178,3 +178,14 @@ body.open .sidebar {
   line-height: 1;
   padding: 10px 20px;
 }
+
+.sidebar-menu > button > img {
+  width: 17px;
+  height: 17px;
+}
+
+.sidebar-menu > button > span {
+  color: #f9f9f9;
+  font-size: 11px;
+  translate: 0 1px;
+}
