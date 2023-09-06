@@ -23,8 +23,7 @@
           <button
             type="button"
             class="sidebar-burger"
-            onclick="toggleSidebar()"
-          ></button>
+            onclick="toggleSidebar()">
           <img src="./assets/blocklord-logo.png" class="sidebar-logo" />
         </header>
         <nav class="sidebar-menu">
@@ -69,6 +68,9 @@
             <span>Security</span>
           </button>
         </nav>
+        <script type="text/javascript">
+          const toggleSidebar = () => document.body.classList.toggle("open");
+        </script>
       </div>
     </nav>
   </body>
